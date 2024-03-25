@@ -1168,3 +1168,90 @@ section {
   background-color: #24742b; /* Button background color on hover */
 }
 
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+  padding-bottom: 30px;
+}
+
+.facts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+
+
+.facts .count-box i {
+  display: block;
+  font-size: 13px;
+  color: #24742b;
+  float: right;
+  line-height: 0;
+  font-family: boxicons;
+  line-height: 1.45;
+}
+
+.facts .count-box img {
+  display: block;
+  font-size: 44px;
+  float: left;
+  line-height: 0;
+}
+
+.facts .count-box span {
+  font-size: 17px;
+  line-height: 40px;
+  display: block;
+  font-weight: 520;
+  color: #193b0b;
+  margin-left: 60px;
+}
+
+.facts .count-box h6 {
+  font-size: 14px;
+  /* line-height: 30px; */
+  display: block;
+  font-weight: 500;
+  color: #050d18;
+  margin-left: 60px;
+}
+
+.facts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #12571d;
+}
+
+.facts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #12571d;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.facts .count-box a:hover {
+  color: #1f971f;
+}
+
+.facts .count-box .rounded-box {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #42db34;
+  border-radius: 15px;
+  background-color: #ced4cd00; /* Initial background color */
+  color: #000000c7; /* Text color */
+  text-decoration: none; /* Remove default link underline */
+  transition: background-color 0.3s;
+  font-size: smaller;
+  font-weight: 500;
+}
+
+.facts .count-box .rounded-box:hover {
+  background-color: #63db3456; /* Color on hover */
+}
