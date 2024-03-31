@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: rgb(5, 163, 18);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: rgb(56, 211, 69);
   color: #fff;
 }
 
@@ -215,7 +215,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: rgb(5, 163, 18);
   color: #fff;
   width: 40px;
   height: 40px;
@@ -569,7 +569,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: rgb(61, 124, 66);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -581,11 +581,13 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border-radius: 10px; /* Adjust the value as needed */
 }
+
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(10, 44, 5, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -606,6 +608,7 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
@@ -618,7 +621,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #05a312;
+  background: #5ea063;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
